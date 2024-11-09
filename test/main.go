@@ -1,13 +1,3 @@
-# go-cache
-simple go library to manage number of data in cache
-
-installation:
-```
-go get -d github.com/michaelwp/go-cache
-```
-
-example on how to use it:
-```go
 package main
 
 import (
@@ -46,5 +36,3 @@ func main() {
 
 	fmt.Println("cache:", cache.View())
 }
-
-```
